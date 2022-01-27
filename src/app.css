@@ -1,0 +1,126 @@
+* {
+	box-sizing: border-box;
+}
+
+.app {
+	max-width: 50rem;
+	display: flex;
+	flex-direction: column;
+}
+
+button {
+	border: none;
+	background-color: transparent;
+}
+
+.navbar {
+	height: 50px;
+	padding: 32px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #aabb97;
+}
+
+.logo {
+	font-size: 32px;
+	color: #fff59d;
+}
+
+.title {
+	font-weight: bold;
+	font-size: 32px;
+	color: #fff59d;
+}
+
+.navbar-count {
+	font-size: 24px;
+	font-weight: bold;
+	color: #494949;
+	width: 32px;
+	height: 32px;
+	background-color: #dcedc8;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.add-form {
+	display: flex;
+	justify-content: center;
+	margin: 24px;
+}
+
+.add-input {
+	font-size: 18px;
+	width: 500px;
+	padding: 8px;
+}
+
+.add-button {
+	margin-left: 4px;
+	width: 72px;
+	border: 1px solid #494949;
+	border-radius: 4px;
+	background-color: #fff59d;
+}
+
+.habits {
+	width: 500px;
+	margin: 0 auto;
+	padding: 0 16px;
+}
+
+.habit {
+	font-size: 24px;
+	margin: 16px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.name-count {
+	display: flex;
+	align-items: center;
+}
+
+.habit-count {
+	margin: 0 16px;
+	background-color: #dcedc8;
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.plus-button {
+	font-size: 24px;
+	color: rgb(102, 158, 102);
+}
+
+.minus-button {
+	font-size: 24px;
+	color: #f7eb88;
+}
+
+.delete-button {
+	font-size: 24px;
+	color: rgb(226, 132, 132);
+}
+
+.footer {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.reset-button {
+	width: 82px;
+	height: 38px;
+	margin-right: 16px;
+	border: 1px solid #494949;
+	border-radius: 4px;
+	background-color: #dcedc8;
+}

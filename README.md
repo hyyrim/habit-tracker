@@ -1,4 +1,4 @@
-# Playlist
+# Habit Tracker
 
 <br>
 

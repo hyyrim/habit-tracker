@@ -11,6 +11,7 @@ https://hyyrim.github.io/habit-tracker/
 ## 🗒️ 프로젝트 소개
 
 습관을 체크할 수 있는 어플리케이션입니다. React강의를 듣고 연습하고자 만들었습니다.
+
 <br>
 
 ## 💻 프로젝트 기능
